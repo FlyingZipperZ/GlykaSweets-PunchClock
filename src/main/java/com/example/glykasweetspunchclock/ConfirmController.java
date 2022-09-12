@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 public class ConfirmController {
-
     @FXML
     private void onBack() throws IOException {
         ViewSwitcher.switchTo(View.MAIN);

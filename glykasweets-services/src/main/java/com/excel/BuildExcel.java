@@ -69,7 +69,7 @@ public class BuildExcel {
             logger.info(fullNames[index][0] + " " + fullNames[index][1]);
 
             // Create header rows for name and labels
-            RowHeader.setFirstRow(fullNames[index][1], fullNames[index][0], sheet, workbook, count++);
+            RowHeader.setFirstRow(fullNames[index][0], fullNames[index][1], sheet, workbook, count++);
             RowHeader.setSecondRow(count++, sheet, workbook);
 
             // Nested loop that runs SQL query and writes the data to the excel
@@ -136,6 +136,6 @@ public class BuildExcel {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        DisplayExcel.readSheetWithFormula(fileLocation);
+//        DisplayExcel.readSheetWithFormula(fileLocation);
     }
 }
