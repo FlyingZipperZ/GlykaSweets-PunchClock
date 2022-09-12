@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/16"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.glykasweetspunchclock.IoController">
+   <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <Button mnemonicParsing="false" text="Clock In" onAction="#onClockIn">
+            <HBox.margin>
+               <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+            </HBox.margin>
+            <font>
+               <Font size="30.0" />
+            </font>
+         </Button>
+         <Button mnemonicParsing="false" text="Clock Out" onAction="#onClockOut">
+            <HBox.margin>
+               <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+            </HBox.margin>
+            <font>
+               <Font size="30.0" />
+            </font>
+         </Button>
+      </children>
+      <VBox.margin>
+         <Insets bottom="25.0" left="25.0" right="25.0" top="25.0" />
+      </VBox.margin>
+   </HBox>
+
+    <Button alignment="TOP_LEFT" contentDisplay="TOP" onAction="#onBack" text="Back">
+      <font>
+         <Font size="20.0" />
+      </font>
+    </Button>
+
+</VBox>

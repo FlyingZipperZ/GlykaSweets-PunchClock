@@ -1,0 +1,6 @@
+rootProject.name = "GlykaSweets-PunchClock"
+include 'glykasweets-services'
+include 'glykasweets-commons-lib'
+include 'Calso'
+include 'glykasweets-email'
+
