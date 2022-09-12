@@ -136,6 +136,6 @@ public class BuildExcel {
         } catch (IOException e) {
             e.printStackTrace();
         }
-//        DisplayExcel.readSheetWithFormula(fileLocation);
+        DisplayExcel.readSheetWithFormula(fileLocation);
     }
 }

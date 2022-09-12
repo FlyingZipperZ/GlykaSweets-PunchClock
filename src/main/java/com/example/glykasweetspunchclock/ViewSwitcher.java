@@ -11,7 +11,7 @@ import java.util.Objects;
 
 public class ViewSwitcher {
 
-    private static Map<View, Parent> cache = new HashMap<>();
+    private static final Map<View, Parent> cache = new HashMap<>();
 
     private static Scene scene;
 
