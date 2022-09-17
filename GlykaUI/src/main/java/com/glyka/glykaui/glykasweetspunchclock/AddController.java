@@ -1,6 +1,6 @@
-package com.example.glykasweetspunchclock;
+package com.glyka.glykaui.glykasweetspunchclock;
 
-import com.example.database.ConnectionClass;
+import com.glyka.glykaui.database.ConnectionClass;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;

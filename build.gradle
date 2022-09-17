@@ -13,7 +13,7 @@ repositories {
 }
 
 ext {
-    junitVersion = '5.8.2'
+    junitVersion = '5.9.0'
 }
 
 sourceCompatibility = '16'
@@ -46,7 +46,7 @@ javafx {
 dependencies {
 //    implementation project(':glykasweets-services')
 
-    implementation 'org.postgresql:postgresql:42.3.6'
+    implementation 'org.postgresql:postgresql:42.5.0'
 
     implementation('org.controlsfx:controlsfx:11.1.1')
     implementation('com.dlsc.formsfx:formsfx-core:11.5.0') {

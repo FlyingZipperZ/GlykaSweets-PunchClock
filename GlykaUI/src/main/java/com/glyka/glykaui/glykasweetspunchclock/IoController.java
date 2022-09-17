@@ -1,6 +1,6 @@
-package com.example.glykasweetspunchclock;
+package com.glyka.glykaui.glykasweetspunchclock;
 
-import com.example.database.User;
+import com.glyka.glykaui.database.User;
 import javafx.fxml.FXML;
 import javafx.scene.text.Text;
 

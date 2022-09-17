@@ -1,7 +1,7 @@
-package com.example.glykasweetspunchclock;
+package com.glyka.glykaui.glykasweetspunchclock;
 
-import com.example.database.ConnectionClass;
-import com.example.database.User;
+import com.glyka.glykaui.database.ConnectionClass;
+import com.glyka.glykaui.database.User;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

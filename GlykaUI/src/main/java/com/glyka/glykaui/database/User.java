@@ -1,4 +1,4 @@
-package com.example.database;
+package com.glyka.glykaui.database;
 
 import java.sql.*;
 
